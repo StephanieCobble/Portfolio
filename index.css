@@ -19,7 +19,6 @@ body {
 }
 
 .about {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,6 +40,11 @@ body {
     margin-top: 2%;
 }
 
+.resume-pic {
+    width:25vw; 
+    height:50vh;
+    margin-bottom: 2vh;
+}
 
 img {
     border-radius: 10px;
@@ -59,4 +63,7 @@ p {
 
 a {
     color: rgb(129, 104, 149);
+}
+a:hover {
+    color: rgb(168, 157, 177);
 }
