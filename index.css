@@ -7,16 +7,22 @@ nav {
     padding-top: 1%;
     font-family: copperplate;
     font-size: x-large;
+    /* background: radial-gradient( rgb(172, 57, 180, 75%), rgba(103, 40, 148, 0.1), rgb(20, 9, 28)); */
+    background-color: rgba(151, 93, 155, 0.215);
 }
+
 
 body {
     background-color: rgb(20, 9, 28);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {
     margin: 0 auto;
     max-width: 95vw;
     max-height: 100vh;
     overflow: auto;
     text-align: center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .about {
